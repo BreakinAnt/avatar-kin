@@ -12,9 +12,16 @@
     <div class="avatar-config">
         <div v-for="(group, index) in groups" :key="`group-${index}`">
             <p>{{ group.name }}:</p>
-            <li v-for="(feature, index) in group.members" :key="`feature-${index}`">
+            <div v-for="(feature, index) in group.members" :key="`feature-${index}`">
                 <button @click="group.activate(feature)">{{ feature.name }}</button>
-            </li>
+            </div>
+            <p>Color:</p>
+            <div v-for="(color, index) in colors" :key="`color-${index}`">
+                <button @click="group.active.hue = color.hue; group.active.brightness = color.brightness; group.active.saturation = color.saturation;">{{ color.name }}</button>
+            </div>
+            <p>Hue:<input type="range" v-model="group.active.hue" min="0" max="360"></p>
+            <p>Brightness:<input type="range" v-model="group.active.brightness" min="0" max="200"></p>
+            <p>Saturation:<input type="range" v-model="group.active.saturation" min="0" max="200"></p>
         </div>
     </div>
 </template>
@@ -26,6 +33,7 @@
 
     const avatar = new Avatar();
     const groups = ref(avatar.groups);
+    const colors = ref(data.color_options);
 
     data.character.forEach((type, index) => {
         const group = new Group(type.name, index);
