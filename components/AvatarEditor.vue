@@ -10,18 +10,17 @@
         >
     </div>
     <div class="avatar-config">
-        <div v-for="(group, index) in groups" :key="`group-${index}`">
-            <p>{{ group.name }}:</p>
-            <div v-for="(feature, index) in group.members" :key="`feature-${index}`">
-                <button @click="group.activate(feature)">{{ feature.name }}</button>
-            </div>
+        <div style="border-style: double;" v-for="(group, index) in groups" :key="`group-${index}`">
+            <p>{{ group.getName() }}:</p>
+            <button v-for="(feature, index) in group.members" :key="`feature-${index}`" @click="group.activate(feature)">{{ feature.name }}</button>
+
             <p>Color:</p>
-            <div v-for="(color, index) in colors" :key="`color-${index}`">
-                <button @click="group.active.hue = color.hue; group.active.brightness = color.brightness; group.active.saturation = color.saturation;">{{ color.name }}</button>
-            </div>
-            <p>Hue:<input type="range" v-model="group.active.hue" min="0" max="360"></p>
-            <p>Brightness:<input type="range" v-model="group.active.brightness" min="0" max="200"></p>
-            <p>Saturation:<input type="range" v-model="group.active.saturation" min="0" max="200"></p>
+
+            <button v-for="(color, index) in colors" :key="`color-${index}`" @click="group.active.hue = color.hue; group.active.brightness = color.brightness; group.active.saturation = color.saturation;">{{ color.name }}</button>
+
+            Hue:<input type="range" v-model="group.active.hue" min="0" max="400">
+            Brightness:<input type="range" v-model="group.active.brightness" min="0" max="200">
+            Saturation:<input type="range" v-model="group.active.saturation" min="0" max="1000">
         </div>
     </div>
 </template>
