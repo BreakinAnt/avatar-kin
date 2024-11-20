@@ -1,0 +1,106 @@
+{
+    "character": [
+        {
+            "name": "head",
+            "contents": [
+                {
+                    "name": "Default",
+                    "filename": "default.png",
+                    "hue": 0,
+                    "saturation": 0,
+                    "brightness": 360
+                },
+                {
+                    "name": "Pretty",
+                    "filename": "pretty.png",
+                    "hue": 0,
+                    "saturation": 0,
+                    "brightness": 360
+                }
+            ]
+        },
+        {
+            "name": "hair",
+            "contents": [
+                {
+                    "name": "Short",
+                    "filename": "short.png",
+                    "hue": 0,
+                    "saturation": 0,
+                    "brightness": 0
+                },
+                {
+                    "name": "Long",
+                    "filename": "long.png",
+                    "hue": 0,
+                    "saturation": 0,
+                    "brightness": 0
+                }
+            ]
+        },
+        {
+            "name": "face",
+            "contents": [
+                {
+                    "name": "Default",
+                    "filename": "default.png",
+                    "hue": 0,
+                    "saturation": 100,
+                    "brightness": 0
+                },
+                {
+                    "name": "Pretty",
+                    "filename": "pretty.png",
+                    "hue": 0,
+                    "saturation": 100,
+                    "brightness": 0
+                }
+            ]
+        }
+    ],
+
+    "color_options": [
+        {
+            "name": "Red",
+            "brightness": 57,
+            "hue": 300,
+            "saturation": 100
+        },
+        {
+            "name": "Blue berry",
+            "brightness": 35,
+            "hue": 191,
+            "saturation": 970
+        },
+        {
+            "name": "Golden Glow",
+            "brightness": 90,
+            "hue": 325,
+            "saturation": 354
+        },
+        {
+            "name": "Midnight Blue",
+            "brightness": 20,
+            "hue": 150,
+            "saturation": 790
+        },
+        {
+            "name": "Black",
+            "brightness": 0,
+            "hue": 0,
+            "saturation": 0
+        },
+        {
+            "name": "White",
+            "brightness": 100,
+            "hue": 0,
+            "saturation": 0
+        },
+        {
+            "name": "Deep Bronze",
+            "brightness": 35,
+            "hue": 360,
+            "saturation": 973
+        }
+    ]
+}

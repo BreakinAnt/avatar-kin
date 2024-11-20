@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "vulmix-app",
+  "scripts": {
+    "prepare": "vulxi prepare",
+    "dev": "vulxi dev",
+    "build": "vulxi build",
+    "serve": "vulxi serve"
+  },
+  "dependencies": {
+    "vulmix": "^0.7.0",
+    "vue": "^3.4.38"
+  }
+}
