@@ -6,6 +6,10 @@ export class Group {
         this.active = null;
     }
     
+    getName() {
+        return this.name[0].toUpperCase() + this.name.slice(1);   
+    }
+
     getActiveFilepath() {
         return this.active ? `/avatar/${this.name}/${this.active.filename}` : null;
     }
