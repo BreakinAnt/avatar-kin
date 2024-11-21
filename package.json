@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "vue": "^3.4.38",
-    "vulmix": "0.7.0-preview.38"
+    "vulmix": "0.7.0-preview.40"
   }
 }
