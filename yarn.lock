@@ -6047,10 +6047,10 @@ vue@^3.4.38:
     "@vue/server-renderer" "3.5.13"
     "@vue/shared" "3.5.13"
 
-vulmix@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/vulmix/-/vulmix-0.7.0.tgz#b948207e1b761d99cbc1f6800ab90a7ab641c3d8"
-  integrity sha512-OYbD8353rQ5VSVCFPb6WtBczL2A0zHCN+We+0ox2IAWp3ZYPxbJsAekdwHrsLb+4Anq+F0ygtdqQEzLeKpiToQ==
+vulmix@0.7.0-preview.38:
+  version "0.7.0-preview.38"
+  resolved "https://registry.yarnpkg.com/vulmix/-/vulmix-0.7.0-preview.38.tgz#3f64a1db44d37e4aaa5e07b01f1b87212aa40520"
+  integrity sha512-DjLv36YAZe/YemjdoCttc7LdhM+nlGWuOjJ0BIOBoSMB9G0hiAyOsa+pPcQPX85mS5xXebgO1J+qQhA/Y9b62Q==
   dependencies:
     "@iconify/vue" "4.0.2"
     "@types/webpack-env" "1.18.5"

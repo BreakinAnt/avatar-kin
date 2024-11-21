@@ -5,4 +5,9 @@ export default defineVulmixConfig({
     imports: {
         enabled: true,
     },
+    dirs: {
+        dist: {
+            root: 'avatar-kin'
+        }
+    },
 })
