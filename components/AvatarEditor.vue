@@ -62,16 +62,4 @@
         top: 0; /* Aligns images to the top */
         left: 0; /* Aligns images to the left */
     }
-
-    #face {
-        filter: sepia(100%);
-    }
-
-    #hair {
-        filter: sepia(100%);
-    }
-
-    #head {
-        filter: sepia(100%);
-    }
 </style>
