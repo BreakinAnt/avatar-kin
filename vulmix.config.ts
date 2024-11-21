@@ -7,7 +7,7 @@ export default defineVulmixConfig({
     },
     dirs: {
         dist: {
-            root: './'
+            root: 'avatar-kin'
         }
     },
 })
