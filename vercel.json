@@ -1,0 +1,12 @@
+{
+    "installCommand": "yarn install",
+    "buildCommand": "yarn build",
+    "outputDirectory": "_dist",
+    "framework": null,
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
