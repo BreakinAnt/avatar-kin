@@ -1,3 +1,3 @@
 <template>
   <AvatarEditor />
-</template>
+</template> 
